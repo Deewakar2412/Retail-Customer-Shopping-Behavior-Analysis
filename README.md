@@ -19,7 +19,7 @@ A 4-page, interactive "Neon Glow" dashboard was built to tell a clear, data-driv
 
 ### **Page 1: 📊 Sales Overview (The "WHAT")**
 *Provides a high-level view of key business trends: what's selling, when, and to whom.*
-![Sales Overview](Screenshot 2025-11-01 003636.png)
+Sales Overview.png
 
 ### **Page 2: 🎯 Key Drivers (The "WHY")**
 *Analyzes the factors driving sales and loyalty. It reveals what's working (Subscriptions) and what's not (Discounts).*
