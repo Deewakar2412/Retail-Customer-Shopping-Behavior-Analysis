@@ -1,7 +1,5 @@
 # 🛍️ Retail Customer Shopping Behavior Analysis
 
-# 🛍️ Retail Customer Shopping Behavior Analysis
-
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=power-bi&logoColor=black)
