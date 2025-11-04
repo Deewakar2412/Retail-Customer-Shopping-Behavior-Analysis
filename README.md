@@ -96,112 +96,47 @@ A **4-page interactive “Neon Glow” dashboard** was created to tell a complet
 
 ## 💡 Key Insights & Recommendations
 
-| # | Insight | Finding | Recommendation |
-| :- | :--- | :--- | :--- |
-| 1 | **Loyalty Key** | Subscribed customers are **33% more loyal** (33 avg. purchases vs 22). | **Boost Subscriptions** – Promote Silver/Gold tiers to enhance retention. |
-| 2 | **Failed Strategy** | Discounts are **not effective** in increasing purchase value. | **Rework Discount Policy** – Introduce bundles or VIP offers. |
-| 3 | **The $6M Insight** | **75% of revenue** comes from the top 50% of customers. | **Launch VIP Program** – Focus on retaining Platinum & Gold customers. |
+This analysis uncovered three critical insights that form the basis of our strategic recommendations:
+
+| Insight | Finding | Recommendation |
+| :--- | :--- | :--- |
+| **1. The Loyalty Key** | Subscribed customers are **33% more loyal** (avg. 33 previous purchases) than non-subscribers (avg. 22). | **Boost Subscriptions:** Aggressively market subscriptions to 'Silver' & 'Gold' tiers to build long-term loyalty. |
+| **2. The Failed Strategy** | Discounts are **ineffective**. The data shows that applying a discount does *not* increase the average purchase amount. | **Optimize Discounts:** Stop ineffective flat discounts and re-allocate the budget to value-added bundles or a VIP program. |
+| **3. The $6M Insight** | Not all customers are equal. **75% of revenue comes from 50% of customers** (the 'Platinum' & 'Gold' tiers). | **Launch a VIP Program:** Retaining these high-value customers is paramount. They are 6-7x more valuable than 'Bronze' customers. |
 
 ---
 
-## ⚙️ Project Pipeline
+## ⚙️ Project Pipeline & Tools Used
 
-### 1️⃣ Data Preparation (Python)
-- Loaded raw CSV → cleaned & standardized column names.  
-- Engineered new features:
-  ```python
-  customer_value_score = purchase_amount * previous_purchases
-  customer_segment = ['Bronze', 'Silver', 'Gold', 'Platinum']
+This project utilized a multi-tool approach to deliver a complete solution.
 
-  Removed redundant and duplicate records.
+### 1. Data Preparation (Python)
+* **Script:** `2_Python/data_preparation.py`
+* **Actions:** Loaded the raw CSV into Pandas. Cleaned and standardized all column names (e.g., `snake_case`).
+* **Feature Engineering:** Created two new columns:
+    * `customer_value_score`: `purchase_amount * previous_purchases`
+    * `customer_segment`: 'Bronze', 'Silver', 'Gold', 'Platinum' (based on score quartiles).
+* **Cleaning:** Dropped the redundant `promo_code_used` column.
 
-📄 Script: Data_Preparation.ipynb
+### 2. Data Analysis (SQL)
+* **Script:** `3_SQL/analysis_queries.sql`
+* **Actions:** Wrote 10+ SQL queries to answer specific business questions about high-value segments, product performance, discount effectiveness, and loyalty drivers.
 
-2️⃣ Data Analysis (SQL)
+### 3. Visualization (Power BI)
+* **File:** `4_Power_BI/Customer_Shopping_Insights.pbix`
+* **Actions:** Designed the 4-page dashboard, wrote DAX measures for KPIs (Total Customers, Avg. Spend, Total Subscribers), and implemented a custom "Neon Glow" JSON theme.
 
-10+ analytical queries for:
+### 4. Report & Presentation
+* **Files:** `5_Report/Project_Report.docx`, `5_Report/Presentation.pptx`
+* **Actions:** Created a complete project report and a 5-slide management presentation deck with a full storytelling script.
 
-Segment-wise performance
-
-Discount effectiveness
-
-Subscription loyalty trends
-
-📄 Script: analysis_queries.sql
-
-3️⃣ Visualization (Power BI)
-
-Created 4 interactive dashboard pages.
-
-Built DAX KPIs: Total Customers, Avg Spend, Total Subscribers.
-
-Used custom Neon Glow theme for storytelling.
-
-📄 File: customer_behavior_dashboard.pbix
-
-4️⃣ Reporting & Documentation
-
-📘 Word Report: Detailed methodology and insights
-
-🖥️ PowerPoint Deck: 5-slide summary for stakeholders
-
-📂 Folder: Business Problem Document.pdf, Project_Report.docx
-
-5️⃣ GitHub Repository
-
-Organized all deliverables into a clean, easy-to-navigate structure:
-
-Retail-Customer-Shopping-Behavior-Analysis/
-│
-├── Dashboard_Image/
-│   ├── sales_overview.png
-│   ├── key_drivers.png
-│   ├── customer_value.png
-│   └── check_out.png
-│
-├── Data/
-│   ├── customer_shopping_behavior.csv
-│   └── cleaned_customer_shopping_behavior.csv
-│
-├── Business Problem Document.pdf
-├── Data_Preparation.ipynb
-├── analysis_queries.sql
-├── customer_behavior_dashboard.pbix
-├── Project_Report.docx
-└── README.md
-
-🧰 Tools & Technologies
-Tool	Purpose
-Python (Pandas)	Data cleaning & feature engineering
-SQL (PostgreSQL)	Data querying & analysis
-Power BI (DAX, Power Query)	Visualization & storytelling
-MS Office (Word, PowerPoint)	Reporting & presentation
-🚀 Results Summary
-
-✅ Improved subscription strategy → +33% loyalty potential
-✅ Identified $6M revenue concentration (top 50% customers)
-✅ Optimized discount model → focus on value bundles
-
-🏁 Final Notes
-
-This project demonstrates a complete Data → Insight → Action pipeline.
-It highlights how Python, SQL, and Power BI together can drive real business impact through data storytelling.
-
-🔗 Connect with Me
-
-📧 deewakar2412@gmail.com
-
-💼 LinkedIn
-
-📊 Portfolio Projects
-
+### 5. GitHub Repository
+* **Actions:** Structured the project into a clean repository with all 5 deliverables clearly organized.
 
 ---
 
-✅ **Instructions:**
-- Place this in your main repo as `README.md`
-- Rename your image files (remove spaces)
-- Keep them inside `Dashboard_Image/`
-- The dashboard preview will appear automatically on your GitHub page  
-
-Would you like me to also create a **short description (2–3 lines)** for your repo’s GitHub header 
+## 🛠️ Tools
+* **Python:** (Pandas) for data cleaning and feature engineering.
+* **SQL:** (PostgreSQL syntax) for data analysis and insight generation.
+* **Power BI:** (DAX, Power Query, JSON Themes) for interactive dashboard visualization.
+* **MS Office:** (Word, PowerPoint) for final reporting and presentation.
