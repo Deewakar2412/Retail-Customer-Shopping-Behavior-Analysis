@@ -82,23 +82,17 @@ A **4-page interactive “Neon Glow” dashboard** was created to tell a complet
 ### **Page 3 – Customer Value (The “Who”)**
 *Segments customers into value tiers: Platinum, Gold, Silver, and Bronze.*
 
-![Customer Value](Dashboard_Image/customer_value.png)
+![Customer Value](Dashboard%20Image/customer%20value.png)
 
 ---
 
 ### **Page 4 – Checkout (The “How”)**
 *Examines customer habits in checkout patterns, payment preferences, and discount adoption.*
 
-![Checkout](Dashboard_Image/check_out.png)
+![Check Out](Dashboard%20Image/check%20out.png)
 
 ---
 
-### **Dashboard Preview (Full Overview)**
-*A combined snapshot of all Power BI dashboard pages.*
-
-[![Dashboard Preview](Dashboard_Image/sales_overview.png)](customer_behavior_dashboard.pbix)
-
----
 
 ## 💡 Key Insights & Recommendations
 
