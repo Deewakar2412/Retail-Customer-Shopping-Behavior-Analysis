@@ -15,7 +15,6 @@
 * [Files in Repository](#-files-in-repository)
 * [How to Use](#-how-to-use)
 * [Author](#-author)
-* [License](#-license)
 
 ---
 
@@ -111,11 +110,13 @@ This project utilized a multi-tool approach to deliver a complete solution.
 ### 5. GitHub Repository
 * **Actions:** Structured the project into a clean repository with all 5 deliverables clearly organized.
 
----
+--
+
+
 ## 👤 Author
 
 **Deewakar Kumar**
 * 📧 Email: `deewakar2412@gmail.com`
 * 📍 Bokaro, Jharkhand, India
-* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deewakar-kumar-b209b521b/)
+* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deewakarkumar2412/) 
 * [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Deewakar2412)
