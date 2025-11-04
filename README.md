@@ -75,7 +75,7 @@ A **4-page interactive “Neon Glow” dashboard** was created to tell a complet
 ### **Page 2 – Key Drivers (The “Why”)**
 *Analyzes the factors driving sales and loyalty, comparing subscriptions vs discounts.*
 
-![Key Drivers](Dashboard_Image/key_drivers.png)
+![Key Drivers](Dashboard%20Image/key%20drivers.png)
 
 ---
 
