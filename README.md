@@ -76,3 +76,96 @@ A **4-page interactive “Neon Glow” dashboard** was created to tell a complet
   ```python
   customer_value_score = purchase_amount * previous_purchases
   customer_segment = ['Bronze', 'Silver', 'Gold', 'Platinum']
+
+  Removed redundant and duplicate records.
+
+📄 Script: Data_Preparation.ipynb
+
+2️⃣ Data Analysis (SQL)
+
+10+ analytical queries for:
+
+Segment-wise performance
+
+Discount effectiveness
+
+Subscription loyalty trends
+
+📄 Script: analysis_queries.sql
+
+3️⃣ Visualization (Power BI)
+
+Created 4 interactive dashboard pages.
+
+Built DAX KPIs: Total Customers, Avg Spend, Total Subscribers.
+
+Used custom Neon Glow theme for storytelling.
+
+📄 File: customer_behavior_dashboard.pbix
+
+4️⃣ Reporting & Documentation
+
+📘 Word Report: Detailed methodology and insights
+
+🖥️ PowerPoint Deck: 5-slide summary for stakeholders
+
+📂 Folder: Business Problem Document.pdf, Project_Report.docx
+
+5️⃣ GitHub Repository
+
+Organized all deliverables into a clean, easy-to-navigate structure:
+
+Retail-Customer-Shopping-Behavior-Analysis/
+│
+├── Dashboard_Image/
+│   ├── sales_overview.png
+│   ├── key_drivers.png
+│   ├── customer_value.png
+│   └── check_out.png
+│
+├── Data/
+│   ├── customer_shopping_behavior.csv
+│   └── cleaned_customer_shopping_behavior.csv
+│
+├── Business Problem Document.pdf
+├── Data_Preparation.ipynb
+├── analysis_queries.sql
+├── customer_behavior_dashboard.pbix
+├── Project_Report.docx
+└── README.md
+
+🧰 Tools & Technologies
+Tool	Purpose
+Python (Pandas)	Data cleaning & feature engineering
+SQL (PostgreSQL)	Data querying & analysis
+Power BI (DAX, Power Query)	Visualization & storytelling
+MS Office (Word, PowerPoint)	Reporting & presentation
+🚀 Results Summary
+
+✅ Improved subscription strategy → +33% loyalty potential
+✅ Identified $6M revenue concentration (top 50% customers)
+✅ Optimized discount model → focus on value bundles
+
+🏁 Final Notes
+
+This project demonstrates a complete Data → Insight → Action pipeline.
+It highlights how Python, SQL, and Power BI together can drive real business impact through data storytelling.
+
+🔗 Connect with Me
+
+📧 deewakar2412@gmail.com
+
+💼 LinkedIn
+
+📊 Portfolio Projects
+
+
+---
+
+✅ **Instructions:**
+- Place this in your main repo as `README.md`
+- Rename your image files (remove spaces)
+- Keep them inside `Dashboard_Image/`
+- The dashboard preview will appear automatically on your GitHub page  
+
+Would you like me to also create a **short description (2–3 lines)** for your repo’s GitHub header 
