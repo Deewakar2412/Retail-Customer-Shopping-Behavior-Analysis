@@ -19,16 +19,16 @@
 
 ---
 
-## 📘 Project Overview
-This project is an **end-to-end analysis** of a retail company's customer shopping behavior dataset (3,900 records).  
-The goal was to identify key purchase drivers, customer loyalty patterns, and actionable insights to improve **sales and retention**.
+## 🧠 Project Overview
+This project is an end-to-end **Retail Customer Shopping Behavior Analysis** built on a dataset of **3,900 customer records**.  
+It uncovers **what drives sales, customer loyalty, and revenue concentration** through data cleaning, SQL analytics, and Power BI visualization.
 
-### 🔁 Data-to-Decision Pipeline
-1. **Data Preparation & Modeling** – Python (Pandas)
-2. **Data Analysis** – SQL (PostgreSQL)
-3. **Visualization** – Power BI (DAX + Custom Theme)
-4. **Reporting** – Word & PowerPoint
-5. **Deployment** – GitHub Repository
+The analysis follows a complete **Data → Insight → Action** pipeline:
+1. **Data Preparation & Modeling (Python)**
+2. **Exploratory Analysis (SQL)**
+3. **Visualization & Insight Generation (Power BI)**
+4. **Report & Presentation (Word / PowerPoint)**
+5. **Documentation (GitHub Repository)**
 
 ---
 
