@@ -31,6 +31,16 @@ The analysis follows a complete **Data → Insight → Action** pipeline:
 5. **Documentation (GitHub Repository)**
 
 ---
+## 🎯 Objectives
+- Understand **customer purchasing behavior** and segment them by value.
+- Identify **key business drivers** such as loyalty, subscriptions, and discounts.
+- Deliver **data-driven recommendations** to improve sales and retention.
+- Build an **interactive Power BI dashboard** with a "Neon Glow" theme.
+
+---
+
+
+
 
 ## 📊 Power BI Dashboard Overview
 A **4-page interactive “Neon Glow” dashboard** was created to tell a complete, data-driven story.
