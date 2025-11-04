@@ -1,5 +1,14 @@
 # 🛍️ Retail Customer Shopping Behavior Analysis
 
+# 🛍️ Retail Customer Shopping Behavior Analysis
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=power-bi&logoColor=black)
+![MS Office](https://img.shields.io/badge/MS%20Office-D83B01?logo=microsoft-office&logoColor=white)
+
+---
+
 ### **Project Overview**
 
 This project is an end-to-end analysis of a retail company's customer shopping behavior dataset (3,900 records).  
