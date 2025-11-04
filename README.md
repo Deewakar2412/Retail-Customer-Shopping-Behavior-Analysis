@@ -38,28 +38,6 @@ The analysis follows a complete **Data → Insight → Action** pipeline:
 - Build an **interactive Power BI dashboard** with a "Neon Glow" theme.
 
 ---
-## 🗂️ Project Structure
-Retail-Customer-Behavior-Analysis/
-│
-├── 1_Data/
-│ └── raw_data.csv
-│
-├── 2_Python/
-│ └── data_preparation.py
-│
-├── 3_SQL/
-│ └── analysis_queries.sql
-│
-├── 4_Power_BI/
-│ └── Customer_Shopping_Insights.pbix
-│
-├── 5_Report/
-│ ├── Project_Report.docx
-│ └── Presentation.pptx
-│
-└── README.md
-
-
 
 ## 📊 Power BI Dashboard Overview
 A **4-page interactive “Neon Glow” dashboard** was created to tell a complete, data-driven story.
@@ -111,7 +89,7 @@ This analysis uncovered three critical insights that form the basis of our strat
 This project utilized a multi-tool approach to deliver a complete solution.
 
 ### 1. Data Preparation (Python)
-* **Script:** `2_Python/data_preparation.py`
+* **Script:** data_preparation.py`
 * **Actions:** Loaded the raw CSV into Pandas. Cleaned and standardized all column names (e.g., `snake_case`).
 * **Feature Engineering:** Created two new columns:
     * `customer_value_score`: `purchase_amount * previous_purchases`
@@ -119,24 +97,18 @@ This project utilized a multi-tool approach to deliver a complete solution.
 * **Cleaning:** Dropped the redundant `promo_code_used` column.
 
 ### 2. Data Analysis (SQL)
-* **Script:** `3_SQL/analysis_queries.sql`
+* **Script:** analysis_queries.sql`
 * **Actions:** Wrote 10+ SQL queries to answer specific business questions about high-value segments, product performance, discount effectiveness, and loyalty drivers.
 
 ### 3. Visualization (Power BI)
-* **File:** `4_Power_BI/Customer_Shopping_Insights.pbix`
+* **File:** Customer_Shopping_Insights.pbix`
 * **Actions:** Designed the 4-page dashboard, wrote DAX measures for KPIs (Total Customers, Avg. Spend, Total Subscribers), and implemented a custom "Neon Glow" JSON theme.
 
 ### 4. Report & Presentation
-* **Files:** `5_Report/Project_Report.docx`, `5_Report/Presentation.pptx`
+* **Files:** Project_Report.docx`, `5_Report/Presentation.pptx`
 * **Actions:** Created a complete project report and a 5-slide management presentation deck with a full storytelling script.
 
 ### 5. GitHub Repository
 * **Actions:** Structured the project into a clean repository with all 5 deliverables clearly organized.
 
 ---
-
-## 🛠️ Tools
-* **Python:** (Pandas) for data cleaning and feature engineering.
-* **SQL:** (PostgreSQL syntax) for data analysis and insight generation.
-* **Power BI:** (DAX, Power Query, JSON Themes) for interactive dashboard visualization.
-* **MS Office:** (Word, PowerPoint) for final reporting and presentation.
