@@ -6,6 +6,19 @@
 ![MS Office](https://img.shields.io/badge/MS%20Office-D83B01?logo=microsoft-office&logoColor=white)
 
 ---
+## 📑 Table of Contents
+
+* [Project Overview](#-project-overview)
+* [Objectives](#-objectives)
+* [Project Structure](#-project-structure)
+* [Dashboard & Insights](#-dashboard--insights)
+* [Findings](#-findings)
+* [Files in Repository](#-files-in-repository)
+* [How to Use](#-how-to-use)
+* [Author](#-author)
+* [License](#-license)
+
+---
 
 ## 📘 Project Overview
 This project is an **end-to-end analysis** of a retail company's customer shopping behavior dataset (3,900 records).  
