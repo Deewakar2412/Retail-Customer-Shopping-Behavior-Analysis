@@ -38,7 +38,26 @@ The analysis follows a complete **Data → Insight → Action** pipeline:
 - Build an **interactive Power BI dashboard** with a "Neon Glow" theme.
 
 ---
-
+## 🗂️ Project Structure
+Retail-Customer-Behavior-Analysis/
+│
+├── 1_Data/
+│ └── raw_data.csv
+│
+├── 2_Python/
+│ └── data_preparation.py
+│
+├── 3_SQL/
+│ └── analysis_queries.sql
+│
+├── 4_Power_BI/
+│ └── Customer_Shopping_Insights.pbix
+│
+├── 5_Report/
+│ ├── Project_Report.docx
+│ └── Presentation.pptx
+│
+└── README.md
 
 
 
