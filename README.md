@@ -67,7 +67,7 @@ A **4-page interactive “Neon Glow” dashboard** was created to tell a complet
 ### **Page 1 – Sales Overview (The “What”)**
 *Shows high-level business performance — what’s selling, when, and to whom.*
 
-![Sales Overview](Dashboard_Image/sales_overview.png)
+![Sales Overview](sales%20overview.png)
 
 ---
 
