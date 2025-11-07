@@ -139,6 +139,16 @@ This analysis uncovered three critical insights that form the basis of our strat
 
 ---
 
+## 🚀 How to Use This Project
+
+Follow the steps below to explore and run this end-to-end data analysis project:
+
+### 📂 1. Clone the Repository
+```bash
+git clone https://github.com/Deewakar2412/customer-shopping-behavior-analysis.git
+cd customer-shopping-behavior-analysis
+
+
 ## 👤 Author
 
 **Deewakar Kumar**
