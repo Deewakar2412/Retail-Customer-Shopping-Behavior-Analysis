@@ -144,7 +144,7 @@ This analysis uncovered three critical insights that form the basis of our strat
 1. Clone the repository:  
 
    ```bash
-   git clone https://github.com/your-username/Apollo-Hospital-Dashboard.git
+   git clone [https://github.com/your-username/Apollo-Hospital-Dashboard.git](https://github.com/Deewakar2412/Retail-Customer-Shopping-Behavior-Analysis.git)
 
 --
 
