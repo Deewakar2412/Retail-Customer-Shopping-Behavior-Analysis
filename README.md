@@ -20,18 +20,26 @@
 <h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
 
 ```
-pizza-sales-analysis/
+customer-shopping-behavior-analysis/
 │
 ├── README.md
 │
-├── Data/                   
-│   ├── pizza_sales (3).csv
-│   ├── pizza_sales_excel_file (2).xlsx
+├── Data/
+│   ├── customer_shopping_behavior.csv
+│   ├── cleaned_customer_shopping_behavior.csv
 │
-├── Main Business Requirements Doc.pdf    
-│   └── Pizza_Sales_EDA.ipynb
+├── Dashboard Image/
+│   ├── check out.png
+│   ├── customer value.png
+│   ├── key drivers.png
+│   ├── sales overview.png
 │
-├── Pizza_Sales_EDA.ipy
+├── Business Problem Document.pdf
+├── Data_Preparation.ipynb
+├── Project_Report.docx
+├── analysis_queries.sql
+├── customer_behavior_dashboard.pbix
+
 
 ```
 
