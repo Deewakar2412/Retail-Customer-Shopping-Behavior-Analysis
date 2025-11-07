@@ -10,11 +10,12 @@
 * [Project Overview](#-project-overview)
 * [Objectives](#-objectives)
 * [Project Structure](#-project-structure)
-* [Dashboard & Insights](#-dashboard--insights)
-* [Findings](#-findings)
-* [Files in Repository](#-files-in-repository)
-* [How to Use](#-how-to-use)
+* [Power BI Dashboard Overview](#-power-bi-dashboard-overview)
+* [Key Insights & Recommendations](#-key-insights--recommendations)
+* [SQL Analysis Highlights](#️-sql-analysis-highlights-12-business-questions-answered)
+* [Python Data Preparation Highlights](#️-python-data-preparation-highlights)
 * [Author](#-author)
+
 
 ---
 <h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
