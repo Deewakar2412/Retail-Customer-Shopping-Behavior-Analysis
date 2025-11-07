@@ -139,8 +139,6 @@ This analysis uncovered three critical insights that form the basis of our strat
 
 ---
 
----
-
 ## 🚀 How to Use
 
 1. Clone the repository:  
