@@ -137,25 +137,4 @@ This analysis uncovered three critical insights that form the basis of our strat
 7.  **Dropped Column:** Dropped the redundant `promo_code_used` column to clean the final dataset.
 8.  **Saved Cleaned File:** Exported the fully prepped DataFrame to `cleaned_customer_shopping_behavior.csv` for use in Power BI and SQL analysis.
 
----
-## 🚀 How to Use This Project
-
-Follow the steps below to explore and run this end-to-end data analysis project:
----
----
-
-### 📂 1. Clone the Repository
-```bash
-git clone https://github.com/Deewakar2412/customer-shopping-behavior-analysis.git
-cd customer-shopping-behavior-analysis
----
----
-<h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
-
-## 👤 Author
-
-**Deewakar Kumar**
-* 📧 Email: `deewakar2412@gmail.com`
-* 📍 Bokaro, Jharkhand, India
-* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deewakarkumar2412/) 
-* [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Deewakar2412)
+--
