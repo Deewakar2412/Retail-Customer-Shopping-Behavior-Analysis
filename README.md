@@ -100,7 +100,18 @@ This analysis uncovered three critical insights that form the basis of our strat
 12. What is the distribution of payment method preferences?
 
 --
+## ⚙️ Python Data Preparation Highlights
 
+1.  **Loaded Dataset:** Imported `customer_shopping_behavior.csv` into a Pandas DataFrame.
+2.  **Cleaned Column Names:** Standardized all column names to `snake_case` for easier querying (e.g., `Purchase Amount (USD)` -> `purchase_amount`).
+3.  **Handled Missing Data:** Checked for `null` values; no imputation was needed as the dataset was complete.
+4.  **Engineered Feature (Value):** Created `customer_value_score` by multiplying `purchase_amount` * `previous_purchases` to quantify customer value.
+5.  **Engineered Feature (Segment):** Created `customer_segment` ('Bronze', 'Silver', 'Gold', 'Platinum') by splitting the `customer_value_score` into 4 equal quartiles (25% each).
+6.  **Handled Redundancy:** Performed a check to confirm `discount_applied` and `promo_code_used` columns were identical.
+7.  **Dropped Column:** Dropped the redundant `promo_code_used` column to clean the final dataset.
+8.  **Saved Cleaned File:** Exported the fully prepped DataFrame to `cleaned_customer_shopping_behavior.csv` for use in Power BI and SQL analysis.
+
+---
 
 ## 👤 Author
 
