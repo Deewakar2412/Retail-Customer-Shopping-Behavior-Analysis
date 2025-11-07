@@ -138,16 +138,18 @@ This analysis uncovered three critical insights that form the basis of our strat
 8.  **Saved Cleaned File:** Exported the fully prepped DataFrame to `cleaned_customer_shopping_behavior.csv` for use in Power BI and SQL analysis.
 
 ---
-
+---
 ## 🚀 How to Use This Project
 
 Follow the steps below to explore and run this end-to-end data analysis project:
+---
+---
 
 ### 📂 1. Clone the Repository
 ```bash
 git clone https://github.com/Deewakar2412/customer-shopping-behavior-analysis.git
 cd customer-shopping-behavior-analysis
-
+---
 
 ## 👤 Author
 
