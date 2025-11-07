@@ -17,6 +17,23 @@
 * [Author](#-author)
 
 ---
+<h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
+
+```
+pizza-sales-analysis/
+│
+├── README.md
+│
+├── Data/                   
+│   ├── pizza_sales (3).csv
+│   ├── pizza_sales_excel_file (2).xlsx
+│
+├── Main Business Requirements Doc.pdf    
+│   └── Pizza_Sales_EDA.ipynb
+│
+├── Pizza_Sales_EDA.ipy
+
+```
 
 ## 🧠 Project Overview
 This project is an end-to-end **Retail Customer Shopping Behavior Analysis** built on a dataset of **3,900 customer records**.  
